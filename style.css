@@ -1,0 +1,329 @@
+
+
+body {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #21243D
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin : 15px auto 0 auto;
+}
+
+#nav-links {
+    display: flex;
+    gap: 65px;
+}
+
+.nav-link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+a#menu-button {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 100px auto auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 0px;
+}
+
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a#button-cv {
+    background-color: #FF6464;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+#subtitle {
+    font-size: 16px; 
+    margin: 35px 0;
+}
+
+#header-content {
+    width: 630px;
+}
+
+#blog {
+      background-color: #EDF7FA;
+      margin-top: 100px;
+      padding-bottom: 25px;
+}
+
+#blog-content {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+article.article-blog {
+    background-color: white;
+    border-radius: 4px;
+    width: 543px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    max-width: 50%;
+}
+
+h3.article-title {
+    font-size: 26px;
+}
+
+p.date-category {
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+}
+
+p.article-description {
+    font-size: 16px;
+}
+
+
+section#projets {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.projet-image {
+    width: 246px;
+    border-radius: 6px;
+}
+
+article.projet {display: flex;}
+
+div {
+}
+
+h3.projet-title {
+    margin-left: 85px;
+    font-size: 30px;
+    margin-block-start: auto;
+}
+
+.date-type {
+    margin-left: 85px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 42px;
+}
+
+p.projet-description {
+    margin-left: 85px;
+}
+
+span.projet-date {
+    font-size: 18px;
+    font-weight: bold;
+    /* display: flex; */
+    color: white;
+    background-color: #142850;
+    border-radius: 19px;
+    width: 55px;
+    padding-left: 15px;
+    padding-top: 3px;
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; */
+}
+
+span.projet-type {
+    font-size: 20px;
+    color: #8695A4;
+}
+
+
+article.projet {
+    display: flex;
+    margin-top: 38px;
+    padding-bottom: 31px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+section#contact {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h3.contact-title {
+    font-size: 36px;
+}
+
+div#contact-content {
+    display: flex;
+}
+
+form {
+    /* display: block; */
+}
+
+
+/* Contact Form */  
+
+p#contact-intro {
+    font-size: 20px;
+}
+
+p#contact-email {
+    font-size: 20px;
+}
+
+a.social-link {
+    font-size: 20px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+
+
+label {
+    font-size: 14px;
+}
+
+input, select, textarea {
+    background-color: #F7F7F7;
+    border: none;
+    height: 46px;
+}
+
+textarea#message {
+    height: 165px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    height: 56px;
+}
+
+
+/* Footer */
+
+div#icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer#footer {
+    /* height: 200px; */
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+div#coordonnes {
+    max-width: 50%;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+    
+    
+    a#menu-button {
+    display: block;
+    }
+    
+    #nav-links {
+        display: none;
+    }
+   
+
+
+    #articles {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    article.article-blog {
+        width: 100%;
+        max-width: none;
+    }
+
+    .projet {
+        flex-direction: column;
+    }
+    
+    .projet-image {
+        width: 100%;
+    }
+    
+    #coordonnes {
+        display: none;
+    }
+
+    header {
+    flex-direction: column-reverse;
+    text-align: center;
+    }
+
+    h2 {
+    text-align: center;
+    }
+ 
+
+}
