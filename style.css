@@ -281,18 +281,26 @@ p {
 }
 
 
+
+
+
+/*MEDIA QUERIES*/
+
+
 @media (max-width: 768px) {
     
     
-    a#menu-button {
-    display: block;
+    #header-content {
+    width: unset;
     }
     
     #nav-links {
         display: none;
     }
-   
-
+       
+    a#menu-button {
+        display: inline-block;
+    }
 
     #articles {
         flex-direction: column;
