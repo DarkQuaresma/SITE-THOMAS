@@ -31,7 +31,7 @@ nav {
     font-size: 20px;
 }
 
-a#menu-button {
+#menu-button {
     display: none;
 }
 
@@ -290,15 +290,37 @@ p {
 @media (max-width: 768px) {
     
     
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+ 
+    h2.Me-contacter {
+        font-size: 22px;
+        text-align: left;
+    }
+    
+    h3.article-title {
+        font-size: 22px;
+    }
+    h3.projet-title {
+        font-size: 24px;
+    }
+
+  
     #header-content {
     width: unset;
     }
-    
+      
     #nav-links {
         display: none;
     }
-       
-    a#menu-button {
+
+    #menu-button {
         display: inline-block;
     }
 
@@ -312,10 +334,20 @@ p {
         max-width: none;
     }
 
+
+    .projet-info {
+        margin-left: -85px;
+    }
+
     .projet {
         flex-direction: column;
     }
     
+    .projet-info {
+    
+        font-size: 18px;
+    }
+
     .projet-image {
         width: 100%;
     }
@@ -329,9 +361,8 @@ p {
     text-align: center;
     }
 
-    h2 {
-    text-align: center;
+    button {
+    font-size: 22px;
     }
- 
 
 }
